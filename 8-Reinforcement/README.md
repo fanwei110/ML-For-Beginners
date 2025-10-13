@@ -47,6 +47,7 @@ The main difference between other types of machine learning and RL is that in RL
 
 1. [Introduction to reinforcement learning and Q-Learning](1-QLearning/README.md)
 2. [Using a gym simulation environment](2-Gym/README.md)
+3. [Human-inspired battle royale simulator](3-BattleRoyale/README.md)
 
 ## Credits
 
