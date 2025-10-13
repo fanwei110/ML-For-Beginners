@@ -48,6 +48,30 @@ The main difference between other types of machine learning and RL is that in RL
 1. [Introduction to reinforcement learning and Q-Learning](1-QLearning/README.md)
 2. [Using a gym simulation environment](2-Gym/README.md)
 
+## Interactive battle royale simulation
+
+To experiment with more human-like tactical agents, try the `battle_royale_simulation.py`
+script in this folder. It renders a square city block with alleys, dead ends, and
+shrinking safe zones so you can observe how heterogeneous AI-controlled combatants react
+under pressure.
+
+```bash
+python battle_royale_simulation.py --agents 16 --size 34 --steps 500
+```
+
+Key behaviors:
+
+- **Cautious engagements** – agents prefer to retreat and hug cover unless they have a
+  measurable advantage or cannot escape.
+- **Obstacle-aware routing** – street-like obstacles create choke points and hiding
+  spots, mimicking human movement through city blocks.
+- **Time pressure** – a shrinking storm radius damages stragglers and forces new
+  encounters over time.
+
+Use the optional arguments to tune population size, arena dimensions, animation speed,
+and randomness (`--seed`). Pass `--no-visual` to skip rendering and quickly list the
+winner.
+
 ## Credits
 
 "Introduction to Reinforcement Learning" was written with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
