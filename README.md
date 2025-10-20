@@ -28,6 +28,29 @@ Travel with us around the world as we apply these classic techniques to data fro
 
 > [find all additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3?WT.mc_id=academic-77952-bethanycheum)
 
+## 🤖 NEW: ML Course Agent
+
+An interactive Python assistant to help you navigate the curriculum! The agent provides:
+- Browse all 26 lessons organized by topic
+- Track your learning progress
+- Search for specific lessons
+- Get personalized recommendations
+- Quick access to resources and quiz information
+
+**Quick Start:**
+```bash
+python ml_course_agent.py
+```
+
+For a demonstration of features:
+```bash
+python demo_agent.py
+```
+
+See [ML_COURSE_AGENT.md](ML_COURSE_AGENT.md) for detailed documentation.
+
+---
+
 **[Students](https://aka.ms/student-page)**, to use this curriculum, fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
 
 - Start with a pre-lecture quiz.
