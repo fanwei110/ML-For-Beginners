@@ -361,3 +361,5 @@ MigrationBackup/
 .Rhistory
 ML-For-Beginners.Rproj
 
+# ML Course Agent progress file
+.ml_agent_progress.json
